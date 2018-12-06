@@ -1,10 +1,12 @@
-const {init, auth} = require('bookthatapp-sdk').default
+const btaSdk = require('bookthatapp-sdk').default
 
-let authPromise = auth('{"key": "your_key", "password": "your_secret"}');
+let authPromise = btaSdk.auth('{"key": "your_key", "password": "your_secret"}');
+
+const btaApi = btaSdk.init('token')
+
+console.log('sdk methods here', btaSdk);
 
 console.log('here should be 404 due to no key', authPromise);
-
-const btaApi = init('token')
 
 console.log(btaApi);
 

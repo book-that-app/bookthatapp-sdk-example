@@ -1,12 +1,12 @@
-import NameWhatYouWant from 'bookthatapp-sdk'
+import btaSdk from 'bookthatapp-sdk'
 
-console.log('sdk methods here', NameWhatYouWant);
+let auth = btaSdk.auth('{"key": "your_key", "password": "your_secret"}');
 
-let auth = NameWhatYouWant.auth('{"key": "your_key", "password": "your_secret"}');
+const btaApi = btaSdk.init('token')
+
+console.log('sdk methods here', btaSdk);
 
 console.log('here should be 404 due to no key', auth);
-
-const btaApi = NameWhatYouWant.init('token')
 
 console.log(btaApi);
 

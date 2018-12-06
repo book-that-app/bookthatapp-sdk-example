@@ -12,9 +12,11 @@
 
     const auth = btaSdk.auth('{"key": "your_key", "password": "your_secret"}');
 
-    console.log('here should be 404 due to no key', auth);
+    const btaApi = btaSdk.init('token');
+    
+    console.log('sdk methods here', btaSdk);
 
-    const btaApi = btaSdk.init('token')
+    console.log('here should be 404 due to no key', auth);
     
     console.log(btaApi);
     // btaSdk.deleteBooking({id: 123}).then(function(response) {
