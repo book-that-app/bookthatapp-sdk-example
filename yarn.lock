@@ -425,10 +425,10 @@ bonjour@^3.5.0:
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
 
-bookthatapp-sdk@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/bookthatapp-sdk/-/bookthatapp-sdk-1.1.2.tgz#f68a39e6ca88f2469a2268765c1e82db885a09ae"
-  integrity sha512-175mXZf17AsCe65/tuaIEuGCR3m0OmTI9Ks7nkyndOy7d1vmYncIYzKcBezPtevjeLSD3mShqVJ/oQ1Ep1e4LQ==
+bookthatapp-sdk@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/bookthatapp-sdk/-/bookthatapp-sdk-1.2.9.tgz#1f4b590d1039bf7372e1b82c891216badc46a3eb"
+  integrity sha512-FE8cWXSrW6MQO2z3cFoaeXQwKdtt6PLKl6ZEyr9WDSdGAO0LkN+UuiT2FeopaST+tUDB3hRm+XAWAXytO2cv0g==
   dependencies:
     axios "^0.18.0"
     babel-loader "^8.0.4"

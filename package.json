@@ -11,7 +11,7 @@
   "author": "Zetya <info@zetya.com> (https://zetya.com)",
   "license": "MIT",
   "dependencies": {
-    "bookthatapp-sdk": "^1.1.2"
+    "bookthatapp-sdk": "^1.2.9"
   },
   "devDependencies": {
     "webpack": "^4.27.1",
